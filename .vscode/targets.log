@@ -1,0 +1,407 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Mon Jun 13 00:55:43 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GRADLE_HOME = /Users/nonocast/.sdkman/candidates/gradle/current
+# makefile (from `Makefile', line 6)
+CPPFLAGS = $(ARCH) -std=c++11
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/nonocast/Develop/projects/socksr
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 5)
+CFLAGS = $(ARCH) -Wall -Wno-unused
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+AUTOJUMP_SOURCED = 1
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `Makefile', line 9)
+TESTS = sockaddr_test.o socks_test.o
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/bz/p58p8h4s1bb8w6v5b3f8_dq40000gp/T/vscode-ipc-972ff4c0-9d7e-452b-b256-29930a548f4a.sock
+# environment
+VSCODE_CWD = /Users/nonocast/Develop/projects/socksr
+# environment
+PATH = /Users/nonocast/opt/anaconda3/bin:/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin:/Users/nonocast/.autojump/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/nonocast/.sdkman/candidates/gradle/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Users/nonocast/.cargo/bin:/Users/nonocast/.go/bin:/usr/local/opt/go/libexec/bin
+# environment
+GOROOT = /usr/local/opt/go/libexec
+# makefile (from `Makefile', line 10)
+PROG = socksr test
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SDKMAN_DIR = /Users/nonocast/.sdkman
+# environment
+SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
+# environment
+GOPATH = /Users/nonocast/.go
+# environment
+LaunchInstanceID = AD13E30E-B26F-4F24-B83D-26448FC447A1
+# environment
+SDKMAN_PLATFORM = Darwin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 7)
+LDFLAGS = -lrtmp
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.a2pC9EHk2J/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.Tz3te3nbza/org.macosforge.xquartz:0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/nonocast/Develop/projects/socksr
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/nonocast
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/nonocast/Library/Application Support/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = nonocast
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/nonocast/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# environment
+SDKMAN_VERSION = 5.9.1+575
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# makefile (from `Makefile', line 1)
+CC = clang -g
+# environment
+JAVA_HOME = /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = nonocast
+# makefile
+.DEFAULT_GOAL := all
+# environment
+TERM_SESSION_ID = C9897FB5-BDDB-43D7-8C8C-75F7709D35A1
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/bz/p58p8h4s1bb8w6v5b3f8_dq40000gp/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/nonocast/Library/Application Support/Code/1.68.0-main.sock
+# makefile (from `Makefile', line 4)
+ARCH = -arch x86_64
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 445
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12933642314.12933642320.BC61F925-8E55-4348-862C-ECC85B4439F1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F6:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 2)
+CXX = clang++
+# environment
+SDKMAN_CANDIDATES_DIR = /Users/nonocast/.sdkman/candidates
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186a5
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 3)
+COMPILE.c = $(CC) $(CFLAGS) $(TARGET_ARCH) -c 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# makefile (from `Makefile', line 8)
+OBJECTS = socks.o
+# environment
+AUTOJUMP_ERROR_PATH = /Users/nonocast/Library/autojump/errors.log
+# environment
+LANG = C
+# environment
+TERM = xterm-color
+# environment
+VSCODE_PID = 35144
+# variable set hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=2/125=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 12934006257): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: socksr test
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+t: run.test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+socks.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:53:07
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+socksr: socks.o socksr.o
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:55:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:55:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+socks.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:00:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test: socks.o sockaddr_test.o socks_test.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-13 00:55:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 23):
+	$(CXX) $(ARCH) `pkg-config --cflags --libs gtest` -L. -lgtest_main -lrtmp -o test $(OBJECTS) $(TESTS)
+	
+
+sockaddr_test.o: sockaddr_test.cc Makefile
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:55:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+ 
+# Not a target:
+sockaddr_test.cc:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-12 19:54:02
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+socks_test.o: socks_test.cc Makefile
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:55:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+socksr.o: socksr.c socksr.h Makefile
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:55:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run.test: test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 20):
+	@./test
+	
+
+# Not a target:
+socksr.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:54:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+socks_test.cc:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-12 20:35:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+run: socksr
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 15):
+	@./socksr
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 33):
+	@rm -f $(OBJECTS) $(PROG)
+	
+
+# Not a target:
+socksr.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-12 19:39:52
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+socks.o: socks.c socks.h Makefile
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 00:55:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=20/1024=2%, Rehash=0, Collisions=2/53=4%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Mon Jun 13 00:55:43 2022
+
+ 

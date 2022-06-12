@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/nonocast/Develop/projects/socksr'
+make: Nothing to be done for `all'.
+make: Leaving directory `/Users/nonocast/Develop/projects/socksr'
+ 

@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "pthread.h": "c",
+    "socksr.h": "c",
+    "ctype.h": "c",
+    "random": "cpp",
+    "stdbool.h": "c",
+    "socket.h": "c"
+  }
+}
